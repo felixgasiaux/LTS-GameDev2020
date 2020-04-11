@@ -7,8 +7,8 @@ public class Door_Down_Script : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Outside");
-        Debug.Log("Player went to the outside");
+        SceneManager.LoadScene("Room2");
+        Debug.Log("Player went to the other room");
     }
 
     // Update is called once per frame
