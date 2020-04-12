@@ -8,7 +8,7 @@ public class Vending_Machine_openStore : MonoBehaviour
     {
         Debug.Log("Player entered shop area");
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("Player Opened The Shop");
         }
