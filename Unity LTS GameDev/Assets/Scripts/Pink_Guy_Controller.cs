@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Pink_Guy_Controller : MonoBehaviour
 {
     public bool talktopink;
     public static bool inboxcollider = false;
     public GameObject PinkGuy_Talk;
-    public TextMeshPro UIConversation;
+    public Text UIConversation;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Player entered Talking area");
         inboxcollider = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("Player left Talking area");
+        inboxcollider = false;
     }
 
     // Update is called once per frame
@@ -26,6 +33,8 @@ public class Pink_Guy_Controller : MonoBehaviour
             {
                 Debug.Log("Player is talking to Pink Guy");
                 PinkGuy_Talk.SetActive(true);
+                Time.timeScale = 0f;
+                UIConversation = ("Test");
             }
             else
             {
