@@ -10,6 +10,11 @@ public class Vending_Machine_openStore : MonoBehaviour
         Debug.Log("Player entered shop area");
         Shopcanbeopened = true;
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("Player exited shop area");
+        Shopcanbeopened = false;
+    }
 
     public static bool Shopcanbeopened = false;
     public GameObject ShopMenuUI;
