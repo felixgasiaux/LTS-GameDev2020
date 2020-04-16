@@ -10,18 +10,21 @@ public class Pink_Guy_Controller : MonoBehaviour
     public static bool inboxcollider = false;
     public GameObject PinkGuy_Talk;
     public Text UIConversation;
+    public GameObject PressEtointeract;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Player entered Talking area");
         inboxcollider = true;
+        PressEtointeract.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("Player left Talking area");
         inboxcollider = false;
+        PressEtointeract.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,6 +38,8 @@ public class Pink_Guy_Controller : MonoBehaviour
                 PinkGuy_Talk.SetActive(true);
                 Time.timeScale = 0f;
                 UIConversation.text = "Hello";
+                PressEtointeract.SetActive(false);
+
             }
             else
             {

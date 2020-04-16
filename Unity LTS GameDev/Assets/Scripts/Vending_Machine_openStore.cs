@@ -5,20 +5,24 @@ using UnityEngine;
 
 public class Vending_Machine_openStore : MonoBehaviour
 {
+
+    public static bool Shopcanbeopened = false;
+    public GameObject ShopMenuUI;
+    public bool Shopisopen;
+    public GameObject PressEtointeract;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Player entered shop area");
         Shopcanbeopened = true;
+        PressEtointeract.SetActive(true);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("Player exited shop area");
         Shopcanbeopened = false;
+        PressEtointeract.SetActive(false);
     }
-
-    public static bool Shopcanbeopened = false;
-    public GameObject ShopMenuUI;
-    public bool Shopisopen;
 
     // Update is called once per frame
     void Update()
