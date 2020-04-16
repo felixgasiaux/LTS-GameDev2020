@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -262,7 +262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20703851}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.32, y: 0.06000006, z: -5}
+  m_LocalPosition: {x: -2.3200002, y: 0.06000006, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1223559737}
@@ -560,7 +560,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2127,7 +2127,7 @@ GameObject:
   - component: {fileID: 416327983}
   - component: {fileID: 416327982}
   m_Layer: 0
-  m_Name: lift-off
+  m_Name: music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2147,7 +2147,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2773,7 +2773,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3174,7 +3174,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3625,6 +3625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 0}
   Shopisopen: 0
+  PressEtointeract: {fileID: 0}
 --- !u!1 &612166246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4794,6 +4795,7 @@ MonoBehaviour:
   talktopink: 0
   PinkGuy_Talk: {fileID: 471364948}
   UIConversation: {fileID: 341707612}
+  PressEtointeract: {fileID: 0}
 --- !u!1 &817552548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5538,6 +5540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 0}
   Shopisopen: 0
+  PressEtointeract: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5616,7 +5619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.32, y: 0.06000006, z: -5}
+  m_LocalPosition: {x: -2.3200002, y: 0.06000006, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7461,6 +7464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 0}
   Shopisopen: 0
+  PressEtointeract: {fileID: 0}
 --- !u!1 &1314917004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7763,7 +7767,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -10453,6 +10457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 331360326}
   Shopisopen: 0
+  PressEtointeract: {fileID: 0}
 --- !u!1 &1897113470
 GameObject:
   m_ObjectHideFlags: 0
