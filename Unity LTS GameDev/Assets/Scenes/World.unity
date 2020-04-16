@@ -3625,7 +3625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 0}
   Shopisopen: 0
-  PressEtointeract: {fileID: 0}
+  PressEtointeract: {fileID: 939643021}
 --- !u!1 &612166246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5437,7 +5437,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.28050804, y: 0.70813096}
+  m_Offset: {x: -0.28050804, y: 0.76840055}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5448,7 +5448,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.37, y: 0.7726042}
+  m_Size: {x: 0.37, y: 0.65206504}
   m_EdgeRadius: 0
 --- !u!212 &919088169
 SpriteRenderer:
@@ -5540,7 +5540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 0}
   Shopisopen: 0
-  PressEtointeract: {fileID: 0}
+  PressEtointeract: {fileID: 939643021}
 --- !u!1 &939643021
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,7 +7423,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.28050804, y: 0.70813096}
+  m_Offset: {x: -0.28050804, y: 0.7736412}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7434,7 +7434,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.37, y: 0.7726042}
+  m_Size: {x: 0.37, y: 0.6415837}
   m_EdgeRadius: 0
 --- !u!212 &1289029952
 SpriteRenderer:
@@ -7500,7 +7500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 0}
   Shopisopen: 0
-  PressEtointeract: {fileID: 0}
+  PressEtointeract: {fileID: 939643021}
 --- !u!1 &1314917004
 GameObject:
   m_ObjectHideFlags: 0
@@ -10651,7 +10651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopMenuUI: {fileID: 331360326}
   Shopisopen: 0
-  PressEtointeract: {fileID: 0}
+  PressEtointeract: {fileID: 939643021}
 --- !u!1 &1897113470
 GameObject:
   m_ObjectHideFlags: 0
