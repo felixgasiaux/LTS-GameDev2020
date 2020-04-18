@@ -18,3 +18,4 @@ public class Door_Up_Script : MonoBehaviour
         
     }
 }
+1
