@@ -262,7 +262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20703851}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.32, y: 0.06000006, z: -5}
+  m_LocalPosition: {x: -2.3200002, y: 0.06000006, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1223559737}
@@ -3623,7 +3623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c16e10ed830d4f8892ba288351c80f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 0}
+  ShopMenuUI: {fileID: 331360326}
   Shopisopen: 0
   PressEtointeract: {fileID: 939643021}
 --- !u!1 &612166246
@@ -5538,7 +5538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c16e10ed830d4f8892ba288351c80f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 0}
+  ShopMenuUI: {fileID: 331360326}
   Shopisopen: 0
   PressEtointeract: {fileID: 939643021}
 --- !u!1 &939643021
@@ -5655,7 +5655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.32, y: 0.06000006, z: -5}
+  m_LocalPosition: {x: -2.3200002, y: 0.06000006, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7498,7 +7498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c16e10ed830d4f8892ba288351c80f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 0}
+  ShopMenuUI: {fileID: 331360326}
   Shopisopen: 0
   PressEtointeract: {fileID: 939643021}
 --- !u!1 &1314917004
