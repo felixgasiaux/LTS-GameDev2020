@@ -2625,8 +2625,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106237307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.385, y: -7.413, z: 1}
-  m_LocalScale: {x: 1.87, y: 0.474, z: 1}
+  m_LocalPosition: {x: 1.385, y: -7.585, z: 1}
+  m_LocalScale: {x: 1.87, y: 0.130824, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -4688,7 +4688,7 @@ GameObject:
   - component: {fileID: 1960070915}
   - component: {fileID: 1960070914}
   m_Layer: 0
-  m_Name: lift-off
+  m_Name: prologue theme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4704,7 +4704,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2a92b1794f7ac6445a25accc97c7df96, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1c8735f9abb43fd4e92ada04513b256a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
