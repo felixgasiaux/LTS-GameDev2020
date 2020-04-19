@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class back_button : MonoBehaviour
 {
-    public void Back()
+    void Update()
     {
-        SceneManager.LoadScene("Base");
+        if (Input.GetKeyDown("e"))
+        {
+            print("exit");
+            SceneManager.LoadScene("Base");
+        }
     }
 }
