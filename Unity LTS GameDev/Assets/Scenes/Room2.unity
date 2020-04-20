@@ -2631,6 +2631,160 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1115920920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1115920922}
+  - component: {fileID: 1115920921}
+  m_Layer: 0
+  m_Name: path
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1115920921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115920920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ac92bc18f545cc84cd886ece82b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorData:
+    _bezierPath:
+      points:
+      - {x: 2.1009386, y: 1.8560882, z: 0}
+      - {x: 2.044503, y: 0.5323849, z: 0}
+      - {x: 1.9354918, y: -1.3908517, z: 0}
+      - {x: 2.0470493, y: -2.8579583, z: 0}
+      - {x: 2.0890422, y: -3.4102135, z: 0}
+      - {x: -1.5368814, y: -2.7470646, z: 0}
+      - {x: -1.4836028, y: -2.9423928, z: 0}
+      - {x: -1.5009267, y: -3.375894, z: 0}
+      - {x: -0.38768506, y: -3.8443956, z: 0}
+      - {x: -0.3735485, y: -4.881816, z: 0}
+      - {x: -0.37338614, y: -4.893728, z: 0}
+      - {x: -5.193168, y: -4.780475, z: 0}
+      - {x: -5.1618586, y: -4.7863646, z: 0}
+      - {x: -5.1613803, y: -4.7978454, z: 0}
+      - {x: -7.234952, y: -4.8550267, z: 0}
+      - {x: -6.933009, y: -4.602926, z: 0}
+      - {x: -6.742911, y: -4.4442067, z: 0}
+      - {x: -4.0355334, y: -4.273454, z: 0}
+      - {x: -4.141846, y: -4.2231026, z: 0}
+      - {x: -4.3407693, y: -4.128889, z: 0}
+      - {x: -2.6610928, y: -4.647062, z: 0}
+      - {x: -2.690567, y: -4.578903, z: 0}
+      - {x: -2.7765954, y: -4.3799634, z: 0}
+      - {x: -5.4117875, y: -4.444602, z: 0}
+      - {x: -5.4117875, y: -4.1854033, z: 0}
+      - {x: -5.3257656, y: -4.2633157, z: 0}
+      - {x: -2.2948737, y: -4.9471803, z: 0}
+      - {x: -2.2016973, y: -5.034992, z: 0}
+      - {x: -1.7926292, y: -4.973357, z: 0}
+      - {x: -1.4417325, y: -4.8809323, z: 0}
+      - {x: -0.31509256, y: -4.9431686, z: 0}
+      - {x: -0.18199407, y: -4.9389997, z: 0}
+      - {x: -3.3365848, y: -0.51564217, z: 0}
+      - {x: -3.2636502, y: -0.5124731, z: 0}
+      - {x: -3.2255425, y: 0.42316937, z: 0}
+      - {x: -3.432157, y: 0.5814363, z: 0}
+      - {x: -3.4317045, y: 1.5124397, z: 0}
+      - {x: -2.4963517, y: 1.5167017, z: 0}
+      - {x: -0.5807129, y: 1.4300065, z: 0}
+      - {x: -0.019718647, y: 1.4379854, z: 0}
+      - {x: 0.03332281, y: 1.0433335, z: 0}
+      - {x: 0.012651682, y: 0.2622497, z: 0}
+      - {x: 0.06378484, y: -0.7294767, z: 0}
+      - {x: -0.2537346, y: -1.0656877, z: 0}
+      - {x: -1.5650136, y: -1.7656257, z: 0}
+      - {x: -1.9250815, y: -1.9322915, z: 0}
+      - {x: -1.4143302, y: -2.602108, z: 0}
+      - {x: -1.3038266, y: -2.562808, z: 0}
+      - {x: -0.39509058, y: -3.250341, z: 0}
+      - {x: -0.22197872, y: -3.3813143, z: 0}
+      - {x: 2.9247975, y: -3.2595847, z: 0}
+      - {x: 3.04232, y: -3.2680821, z: 0}
+      - {x: 3.039686, y: -2.1772356, z: 0}
+      - {x: 3.0911334, y: -0.7924609, z: 0}
+      - {x: 3.0485551, y: 1.7700341, z: 0}
+      - {x: 2.5505798, y: 1.8233577, z: 0}
+      - {x: 2.6023142, y: 1.9308174, z: 0}
+      isClosed: 1
+      space: 1
+      controlMode: 2
+      autoControlLength: 0.3
+      boundsUpToDate: 0
+      bounds:
+        m_Center: {x: 1.6404408, y: 0.34116647, z: 0}
+        m_Extent: {x: 0.35955918, y: 0.43513015, z: 0}
+      perAnchorNormalsAngle:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      globalNormalsAngle: 0
+      flipNormals: 0
+    vertexPathUpToDate: 1
+    vertexPathMaxAngleError: 15
+    vertexPathMinVertexSpacing: 0.01
+    showTransformTool: 1
+    showPathBounds: 0
+    showPerSegmentBounds: 0
+    displayAnchorPoints: 1
+    displayControlPoints: 1
+    bezierHandleScale: 1
+    globalDisplaySettingsFoldout: 0
+    keepConstantHandleSize: 0
+    showNormalsInVertexMode: 0
+    showBezierPathInVertexMode: 0
+    showDisplayOptions: 0
+    showPathOptions: 1
+    showVertexPathDisplayOptions: 0
+    showVertexPathOptions: 1
+    showNormals: 0
+    showNormalsHelpInfo: 0
+    tabIndex: 0
+  initialized: 1
+--- !u!4 &1115920922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115920920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.2395089, y: -2.1402001, z: -0.13085938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1121345233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3720,12 +3874,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1680184668}
   - component: {fileID: 1680184673}
+  - component: {fileID: 1680184669}
   - component: {fileID: 1680184672}
   - component: {fileID: 1680184671}
   - component: {fileID: 1680184670}
-  - component: {fileID: 1680184669}
   m_Layer: 0
-  m_Name: The Pink Guy
+  m_Name: The Grey Guy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3739,8 +3893,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680184667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1424276, y: 0.3114707, z: 5957.872}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: 7.94, y: 1.91, z: 5957.872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2052927079}
   m_RootOrder: 0
@@ -3754,13 +3908,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1680184667}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef966253abe6047999281b4f0dae8436, type: 3}
+  m_Script: {fileID: 11500000, guid: f7f1a09b06375c4428d8d0159ce6aba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  talktopink: 0
-  PinkGuy_Talk: {fileID: 1292122455}
-  UIConversation: {fileID: 372398940}
-  PressEtointeract: {fileID: 1437066338}
+  pathCreator: {fileID: 1115920921}
+  speed: 0.5
+  animator: {fileID: 1680184672}
 --- !u!70 &1680184670
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3774,8 +3927,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010956394, y: -0.052590705}
-  m_Size: {x: 0.25426176, y: 0.27617463}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 0.8}
   m_Direction: 0
 --- !u!61 &1680184671
 BoxCollider2D:
@@ -3790,18 +3943,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0065377057, y: -0.03465917}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.3969697, y: 0.7090909}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.38522702, y: 0.4166357}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!95 &1680184672
 Animator:
@@ -3813,7 +3966,7 @@ Animator:
   m_GameObject: {fileID: 1680184667}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 245ef1b870add4fa694339e44a7ce7e5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1445107727dd5974a9dd6769d0bfdca4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3861,8 +4014,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6367560908665664636, guid: d348dff3819df794186a80cb95777629,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28c09d1a10e3f7b4e852bb80951f1050, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
