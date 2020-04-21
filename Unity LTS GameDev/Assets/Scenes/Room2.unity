@@ -1559,7 +1559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906336409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.64, y: -6.65, z: 0}
+  m_LocalPosition: {x: 1.05, y: -6.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2663,63 +2663,24 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: 2.1009386, y: 1.8560882, z: 0}
-      - {x: 2.044503, y: 0.5323849, z: 0}
-      - {x: 1.9354918, y: -1.3908517, z: 0}
+      - {x: 1.9492214, y: 1.8737177, z: 0}
+      - {x: 1.9732049, y: 0.53106225, z: 0}
+      - {x: 2.132406, y: -1.277555, z: 0}
       - {x: 2.0470493, y: -2.8579583, z: 0}
-      - {x: 2.0890422, y: -3.4102135, z: 0}
-      - {x: -1.5368814, y: -2.7470646, z: 0}
+      - {x: 0.9353621, y: -2.8992271, z: 0}
+      - {x: 0.41446495, y: -2.868606, z: 0}
       - {x: -1.4836028, y: -2.9423928, z: 0}
       - {x: -1.5009267, y: -3.375894, z: 0}
-      - {x: -0.38768506, y: -3.8443956, z: 0}
-      - {x: -0.3735485, y: -4.881816, z: 0}
-      - {x: -0.37338614, y: -4.893728, z: 0}
-      - {x: -5.193168, y: -4.780475, z: 0}
-      - {x: -5.1618586, y: -4.7863646, z: 0}
-      - {x: -5.1613803, y: -4.7978454, z: 0}
-      - {x: -7.234952, y: -4.8550267, z: 0}
-      - {x: -6.933009, y: -4.602926, z: 0}
-      - {x: -6.742911, y: -4.4442067, z: 0}
-      - {x: -4.0355334, y: -4.273454, z: 0}
-      - {x: -4.141846, y: -4.2231026, z: 0}
-      - {x: -4.3407693, y: -4.128889, z: 0}
-      - {x: -2.6610928, y: -4.647062, z: 0}
-      - {x: -2.690567, y: -4.578903, z: 0}
-      - {x: -2.7765954, y: -4.3799634, z: 0}
-      - {x: -5.4117875, y: -4.444602, z: 0}
-      - {x: -5.4117875, y: -4.1854033, z: 0}
-      - {x: -5.3257656, y: -4.2633157, z: 0}
-      - {x: -2.2948737, y: -4.9471803, z: 0}
-      - {x: -2.2016973, y: -5.034992, z: 0}
-      - {x: -1.7926292, y: -4.973357, z: 0}
-      - {x: -1.4417325, y: -4.8809323, z: 0}
-      - {x: -0.31509256, y: -4.9431686, z: 0}
-      - {x: -0.18199407, y: -4.9389997, z: 0}
-      - {x: -3.3365848, y: -0.51564217, z: 0}
-      - {x: -3.2636502, y: -0.5124731, z: 0}
-      - {x: -3.2255425, y: 0.42316937, z: 0}
-      - {x: -3.432157, y: 0.5814363, z: 0}
-      - {x: -3.4317045, y: 1.5124397, z: 0}
-      - {x: -2.4963517, y: 1.5167017, z: 0}
-      - {x: -0.5807129, y: 1.4300065, z: 0}
-      - {x: -0.019718647, y: 1.4379854, z: 0}
-      - {x: 0.03332281, y: 1.0433335, z: 0}
-      - {x: 0.012651682, y: 0.2622497, z: 0}
-      - {x: 0.06378484, y: -0.7294767, z: 0}
-      - {x: -0.2537346, y: -1.0656877, z: 0}
-      - {x: -1.5650136, y: -1.7656257, z: 0}
-      - {x: -1.9250815, y: -1.9322915, z: 0}
-      - {x: -1.4143302, y: -2.602108, z: 0}
-      - {x: -1.3038266, y: -2.562808, z: 0}
-      - {x: -0.39509058, y: -3.250341, z: 0}
-      - {x: -0.22197872, y: -3.3813143, z: 0}
-      - {x: 2.9247975, y: -3.2595847, z: 0}
-      - {x: 3.04232, y: -3.2680821, z: 0}
-      - {x: 3.039686, y: -2.1772356, z: 0}
-      - {x: 3.0911334, y: -0.7924609, z: 0}
-      - {x: 3.0485551, y: 1.7700341, z: 0}
-      - {x: 2.5505798, y: 1.8233577, z: 0}
-      - {x: 2.6023142, y: 1.9308174, z: 0}
+      - {x: -1.4834886, y: -3.9591398, z: 0}
+      - {x: -1.4528475, y: -4.8472157, z: 0}
+      - {x: -1.2797356, y: -4.978189, z: 0}
+      - {x: 3.2926214, y: -4.8280816, z: 0}
+      - {x: 3.4101439, y: -4.8365793, z: 0}
+      - {x: 3.4075098, y: -3.7457328, z: 0}
+      - {x: 3.3445828, y: -0.7142869, z: 0}
+      - {x: 3.3020046, y: 1.8482081, z: 0}
+      - {x: 2.8394697, y: 1.87441, z: 0}
+      - {x: 2.567289, y: 1.8138655, z: 0}
       isClosed: 1
       space: 1
       controlMode: 2
@@ -2729,19 +2690,6 @@ MonoBehaviour:
         m_Center: {x: 1.6404408, y: 0.34116647, z: 0}
         m_Extent: {x: 0.35955918, y: 0.43513015, z: 0}
       perAnchorNormalsAngle:
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
       - 0
       - 0
       - 0
@@ -2778,12 +2726,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115920920}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2395089, y: -2.1402001, z: -0.13085938}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.8195086, y: 0.019799948, z: 5957.741}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 2052927079}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1121345233
 GameObject:
@@ -3893,7 +3841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680184667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.95, y: 1.88, z: 5957.872}
+  m_LocalPosition: {x: 7.96, y: 1.86, z: 5957.872}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children: []
   m_Father: {fileID: 2052927079}
@@ -4839,7 +4787,7 @@ GameObject:
   - component: {fileID: 1960070915}
   - component: {fileID: 1960070914}
   m_Layer: 0
-  m_Name: prologue theme
+  m_Name: indoor theme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4855,7 +4803,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1c8735f9abb43fd4e92ada04513b256a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9433dbbacd42e9649aa9b93e3413d51d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4863,7 +4811,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 6.7927876
   MaxDistance: 500
@@ -4901,7 +4849,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5021,6 +4969,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1680184668}
+  - {fileID: 1115920922}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using PathCreation;
 
 public class Pink_Guy_Controller : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Pink_Guy_Controller : MonoBehaviour
     public GameObject PinkGuy_Talk;
     public Text UIConversation;
     public GameObject PressEtointeract;
+    public PathCreator pathCreator;
+    public float speed = 0.5f;
+    float distanceTravelled;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,8 +47,15 @@ public class Pink_Guy_Controller : MonoBehaviour
             }
             else
             {
-                
+
             }
         }
+        else
+        {
+
+        }
+     //movement
+     distanceTravelled += speed * Time.deltaTime;
+     transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
     }
 }
