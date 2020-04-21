@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using PathCreation;
 
-public class follower : MonoBehaviour
+public class Grey_Guy_Controller : MonoBehaviour
 {
     public PathCreator pathCreator;
-    public float speed = 5;
+    public float speed = 0.5f;
     float distanceTravelled;
     /*
     public Animator animator;
