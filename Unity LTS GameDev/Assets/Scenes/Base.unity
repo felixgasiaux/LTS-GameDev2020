@@ -2686,7 +2686,7 @@ MonoBehaviour:
     keepConstantHandleSize: 0
     showNormalsInVertexMode: 0
     showBezierPathInVertexMode: 0
-    showDisplayOptions: 0
+    showDisplayOptions: 1
     showPathOptions: 1
     showVertexPathDisplayOptions: 0
     showVertexPathOptions: 1
@@ -3066,7 +3066,7 @@ GameObject:
   - component: {fileID: 789138621}
   - component: {fileID: 789138622}
   m_Layer: 0
-  m_Name: path
+  m_Name: Guy with Blue shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5933,7 +5933,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 3.8}
+  m_Size: {x: 0.9794165, y: 1.2409902}
   m_EdgeRadius: 0
 --- !u!95 &1771140380
 Animator:
