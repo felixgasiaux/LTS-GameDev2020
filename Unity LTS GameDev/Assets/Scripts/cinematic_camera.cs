@@ -37,10 +37,13 @@ public class cinematic_camera : MonoBehaviour
         }
         else
         {
-            ShopMenuUI.SetActive(true);
             if (time >= 12f)
             {
                 camera_move = true;
+                ShopMenuUI.SetActive(false);
+            }
+            else
+            {
                 ShopMenuUI.SetActive(true);
             }
         }
