@@ -29,14 +29,18 @@ public class cinematic_camera : MonoBehaviour
             if (time < 55.5f)
             {
                 speed = 0.5f;
-                if (time > 50.3f)
+                if (time > 48.1f)
                 {
-                    conversation.text = "EARTH";
+                    conversation.text = "";
+                }
+                else if (time > 20.3f)
+                {
+                    conversation.text = "EARTH - 2069";
                 }
             }
             else if (time > 55.5f)
             {
-                speed = 10f;
+                speed = 15f;
                 if (time < 65.3f)
                 {
                     conversation.text = "In 2069";
