@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using PathCreation;
+using UnityEngine.UI;
 
 public class cinematic_camera : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class cinematic_camera : MonoBehaviour
     public EndOfPathInstruction endOfPathInstruction;
     public bool camera_move = false;
     public float time = 0;
+    public Text conversation;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,10 +29,31 @@ public class cinematic_camera : MonoBehaviour
             if (time < 55.5f)
             {
                 speed = 0.5f;
+                if (time > 50.3f)
+                {
+                    conversation.text = "EARTH";
+                }
             }
-            else
+            else if (time > 55.5f)
             {
                 speed = 10f;
+                if (time < 65.3f)
+                {
+                    conversation.text = "In 2069";
+                }
+                else if (time < 72.3f)
+                {
+                    conversation.text = "A crew of 6 austronauts";
+                }
+                else if (time < 85.3f)
+                {
+                    conversation.text = "Begins their journey threw our solar system";
+                }
+                else if (time < 95.3f)
+                {
+                    conversation.text = "To Titan a moon orbiting around Saturn";
+                }
+                
             }
             distanceTravelled += speed * Time.deltaTime;
             transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);// Stop or Loop
@@ -44,6 +67,7 @@ public class cinematic_camera : MonoBehaviour
             }
             else
             {
+                conversation.text = "";
                 ShopMenuUI.SetActive(true);
             }
         }
