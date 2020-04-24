@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using PathCreation;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class cinematic_camera : MonoBehaviour
 {
@@ -57,7 +59,12 @@ public class cinematic_camera : MonoBehaviour
                 {
                     conversation.text = "To Titan a moon orbiting around Saturn";
                 }
-                
+                else if (time > 118.5)
+                {
+                    SceneManager.LoadScene("VoyageThrewSpace");
+                }
+
+
             }
             distanceTravelled += speed * Time.deltaTime;
             transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);// Stop or Loop
