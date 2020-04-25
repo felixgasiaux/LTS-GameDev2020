@@ -28,38 +28,42 @@ public class cinematic_camera : MonoBehaviour
         time += Time.deltaTime;
         if (camera_move == true)
         {
-            if (time < 55.5f)
+            if (time < 26.5f)
             {
-                speed = 0.5f;
-                if (time > 48.1f)
+                speed = 1.5f;
+                if (time > 25f)
                 {
                     conversation.text = "";
                 }
-                else if (time > 20.3f)
+                else if (time > 15f)
                 {
                     conversation.text = "EARTH - 2069";
                 }
             }
-            else if (time > 55.5f)
+            else if (time > 24f)
             {
-                speed = 15f;
-                if (time < 65.3f)
+                speed = 25f;
+                if (time < 29f)
                 {
                     conversation.text = "In 2069";
                 }
-                else if (time < 72.3f)
+                else if (time < 34f)
                 {
                     conversation.text = "A crew of 6 austronauts";
                 }
-                else if (time < 85.3f)
+                else if (time < 39f)
                 {
                     conversation.text = "Begins their journey threw our solar system";
                 }
-                else if (time < 95.3f)
+                else if (time < 44f)
                 {
                     conversation.text = "To Titan a moon orbiting around Saturn";
                 }
-                else if (time > 118.5)
+                else if (time < 49f)
+                {
+                    conversation.text = "To create the 5th colony";
+                }
+                else if (time > 54f)
                 {
                     SceneManager.LoadScene("VoyageThrewSpace");
                 }
@@ -71,7 +75,7 @@ public class cinematic_camera : MonoBehaviour
         }
         else
         {
-            if (time >= 12f)
+            if (time >= 10f)
             {
                 camera_move = true;
                 ShopMenuUI.SetActive(false);
