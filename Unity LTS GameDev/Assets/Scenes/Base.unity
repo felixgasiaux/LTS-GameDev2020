@@ -470,8 +470,8 @@ GameObject:
   - component: {fileID: 125915116}
   m_Layer: 0
   m_Name: door_special_room
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Door
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1321,8 +1321,8 @@ GameObject:
   - component: {fileID: 263052330}
   m_Layer: 0
   m_Name: Door_other_Room
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Door
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1999,8 +1999,8 @@ GameObject:
   - component: {fileID: 477364899}
   m_Layer: 0
   m_Name: The Hat Guy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: NPC
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3224,7 +3224,7 @@ GameObject:
   - component: {fileID: 789138622}
   m_Layer: 0
   m_Name: Guy with Blue shirt
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4080,12 +4080,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1038579725}
   m_Layer: 5
-  m_Name: PinkGuy Talk
+  m_Name: BlueGuyTalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1038579725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6245,9 +6245,9 @@ GameObject:
   - component: {fileID: 1771140382}
   - component: {fileID: 1771140383}
   m_Layer: 0
-  m_Name: The Pink Guy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Name: The Blue Guy
+  m_TagString: NPC
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
