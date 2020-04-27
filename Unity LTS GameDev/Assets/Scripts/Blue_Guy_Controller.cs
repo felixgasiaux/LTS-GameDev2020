@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using PathCreation;
 using TMPro;
 
-public class Pink_Guy_Controller : MonoBehaviour
+public class Blue_Guy_Controller : MonoBehaviour
 {
     public bool talktopink;
     public static bool inboxcollider = false;
