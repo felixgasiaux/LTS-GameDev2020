@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using PathCreation;
+using TMPro;
 
 public class Pink_Guy_Controller : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Pink_Guy_Controller : MonoBehaviour
     public PathCreator pathCreator;
     public float speed = 0.5f;
     float distanceTravelled;
-
+    public TextMeshProUGUI text;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
