@@ -9,8 +9,8 @@ using UnityEngine.SceneManagement;
 public class LastCinematic : MonoBehaviour
 {
     public PathCreator pathCreator;
-    public float speed = 5f;
-    float distanceTravelled;
+    public float speed = 0f;
+    public float distanceTravelled;
     public GameObject head1;
     public GameObject head2;
     public GameObject head3;
@@ -36,9 +36,25 @@ public class LastCinematic : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
+        if (distanceTravelled >= 841.2007f)
+        {
+            SceneManager.LoadScene("LastCinematic");
+        }
+        else if (distanceTravelled > 750f)
+        {
+            speed -= 0.1f;
+            if (speed <= 1f)
+            {
+                speed = 1f;
+            }
+        }
+        else
+        {
+            speed += 0.01f;
+        }
                 if (time < 5f)
                 {
-                    conversation.text = "The crew is composed of 6 astronauts female and male";
+                    conversation.text = "The crew has been training for 5 years";
                 }
                 else if (time < 10f)
                 {
@@ -48,32 +64,32 @@ public class LastCinematic : MonoBehaviour
                 else if (time < 15f)
                 {
                     head2.SetActive(true);
-                    conversation.text = "Command pilote Emma";
+                    conversation.text = "Commander Emma";
                 }
                 else if (time < 20f)
                 {
                     head3.SetActive(true);
-                    conversation.text = "Commander Luc";
+                    conversation.text = "Communication engineer Luc";
                 }
                 else if (time < 25f)
                 {
                     head4.SetActive(true);
-                    conversation.text = "Command module pilot Martin";
+                    conversation.text = "Command pilote Martin";
                 }
                 else if (time < 30f)
                 {
                     head5.SetActive(true);
-                    conversation.text = "Docking module pilot Quentin";
+                    conversation.text = "Titan module pilote Quentin";
                 }
                 else if (time < 35f)
                 {
                     head6.SetActive(true);
-                    conversation.text = "Titan module pilot Felix";
+                    conversation.text = "Mechanical engineer Felix";
                 }
-                else if (time > 504f)
+                else if (time > 45.5f)
                 {
-                    SceneManager.LoadScene("Menu");
-                }
+                    conversation.text = "";
+                 }
 
             distanceTravelled += speed * Time.deltaTime;
             transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);// Stop or Loop

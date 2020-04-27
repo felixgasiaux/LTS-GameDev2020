@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VoyageThrewSpace.unity
     guid: 1e62b30363e859a46805e67664d38ac2
+  - enabled: 1
+    path: Assets/Scenes/LastCinematic.unity
+    guid: c5439508920ab470eb1d738be01cc228
   m_configObjects: {}
