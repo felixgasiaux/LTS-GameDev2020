@@ -93,6 +93,11 @@ public class LastCinematic : MonoBehaviour
 
             distanceTravelled += speed * Time.deltaTime;
             transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);// Stop or Loop
+        if (Input.GetKeyDown("e"))
+        {
+            print("exit");
+            SceneManager.LoadScene("Menu");
         }
+    }
         }
 

@@ -86,5 +86,10 @@ public class cinematic_camera : MonoBehaviour
                 ShopMenuUI.SetActive(true);
             }
         }
+        if (Input.GetKeyDown("e"))
+        {
+            print("exit");
+            SceneManager.LoadScene("Menu");
+        }
     }
 }
