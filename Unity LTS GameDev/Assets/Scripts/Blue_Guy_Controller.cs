@@ -11,7 +11,6 @@ public class Blue_Guy_Controller : MonoBehaviour
     public bool talktopink;
     public static bool inboxcollider = false;
     public GameObject PinkGuy_Talk;
-    public Text UIConversation;
     public GameObject PressEtointeract;
     public PathCreator pathCreator;
     public float speed = 0.5f;
@@ -42,9 +41,7 @@ public class Blue_Guy_Controller : MonoBehaviour
                 Debug.Log("Player is talking to Pink Guy");
                 PinkGuy_Talk.SetActive(true);
                 Time.timeScale = 0f;
-                UIConversation.text = "Hello";
                 PressEtointeract.SetActive(false);
-
             }
             else
             {
