@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using PathCreation;
-using TMPro;
 
 public class Blue_Guy_Controller : MonoBehaviour
 {
@@ -16,6 +15,7 @@ public class Blue_Guy_Controller : MonoBehaviour
     public float speed = 0.5f;
     float distanceTravelled;
     public TextMeshProUGUI text;
+  
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -53,7 +53,7 @@ public class Blue_Guy_Controller : MonoBehaviour
 
         }
      //movement
-     distanceTravelled += speed * Time.deltaTime;
-     transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
+       distanceTravelled += speed * Time.deltaTime;
+       transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
     }
 }
