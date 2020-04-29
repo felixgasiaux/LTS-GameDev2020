@@ -36,11 +36,11 @@ public class LastCinematic : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (distanceTravelled >= 841.2007f)
+        if (distanceTravelled >= 835.9f)
         {
             SceneManager.LoadScene("LastCinematic");
         }
-        else if (distanceTravelled > 750f)
+        else if (distanceTravelled > 760f)
         {
             speed -= 0.1f;
             if (speed <= 1f)
@@ -59,7 +59,7 @@ public class LastCinematic : MonoBehaviour
                 else if (time < 10f)
                 {
                     head1.SetActive(true);
-                    conversation.text = "Pilote Lucie";
+                    conversation.text = "Pilot Lucie";
                 }
                 else if (time < 15f)
                 {
@@ -74,12 +74,12 @@ public class LastCinematic : MonoBehaviour
                 else if (time < 25f)
                 {
                     head4.SetActive(true);
-                    conversation.text = "Command pilote Martin";
+                    conversation.text = "Command pilot Martin";
                 }
                 else if (time < 30f)
                 {
                     head5.SetActive(true);
-                    conversation.text = "Titan module pilote Quentin";
+                    conversation.text = "Titan module pilot Quentin";
                 }
                 else if (time < 35f)
                 {

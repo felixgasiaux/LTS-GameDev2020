@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48038597}
   - component: {fileID: 48038596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 153af4ccffd13264aa54aba120769c3b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 19911636d50c2504f9d4b97a8752356a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -339,7 +339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117549973}
   - component: {fileID: 117549972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: radar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 132236469}
   - component: {fileID: 132236468}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: moon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 174940265}
   - component: {fileID: 174940266}
   - component: {fileID: 174940267}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: blue_guy_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 236202487}
   - component: {fileID: 236202488}
   - component: {fileID: 236202489}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: head (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 276875019}
   - component: {fileID: 276875018}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet_02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038886521}
   - component: {fileID: 1038886520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,8 +1007,8 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -125.71179, y: -14.997307, z: 0}
-      - {x: -124.71179, y: -14.497307, z: 0}
+      - {x: -121.96411, y: -15.6215515, z: -0.00390625}
+      - {x: -120.96411, y: -15.1215515, z: -0.00390625}
       - {x: 680.301, y: 3.4374619, z: 0}
       - {x: 686.79895, y: 0.2706604, z: 0}
       - {x: 694.7151, y: -3.58732, z: 0}
@@ -1028,7 +1028,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 217
       flipNormals: 0
-    vertexPathUpToDate: 1
+    vertexPathUpToDate: 0
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -1073,7 +1073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352473404}
   - component: {fileID: 1352473403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SunBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1246,7 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1491545891}
   - component: {fileID: 1491545890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1534979604}
   - component: {fileID: 1534979603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1408,7 +1408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565524411}
   - component: {fileID: 1565524410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: starfield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1491,7 @@ GameObject:
   - component: {fileID: 1696863916}
   - component: {fileID: 1696863917}
   - component: {fileID: 1696863918}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: head (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,7 +1607,7 @@ GameObject:
   - component: {fileID: 1699678116}
   - component: {fileID: 1699678118}
   - component: {fileID: 1699678117}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1683,7 +1683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721461490}
   - component: {fileID: 1721461489}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: moon_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1866,7 +1866,7 @@ GameObject:
   - component: {fileID: 1766130573}
   - component: {fileID: 1766130574}
   - component: {fileID: 1766130575}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: head (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1981,7 +1981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834109541}
   - component: {fileID: 1834109540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2064,7 +2064,7 @@ GameObject:
   - component: {fileID: 1961819048}
   - component: {fileID: 1961819049}
   - component: {fileID: 1961819050}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2178,7 +2178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1977436624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: starfield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2221,7 +2221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2028604119}
   - component: {fileID: 2028604118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: planet_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2304,7 +2304,7 @@ GameObject:
   - component: {fileID: 2106207407}
   - component: {fileID: 2106207408}
   - component: {fileID: 2106207409}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: head (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2421,7 +2421,7 @@ GameObject:
   - component: {fileID: 2108517569}
   - component: {fileID: 2108517568}
   - component: {fileID: 2108517567}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: target
   m_TagString: Untagged
   m_Icon: {fileID: 0}

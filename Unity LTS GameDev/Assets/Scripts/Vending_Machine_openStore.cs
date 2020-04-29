@@ -57,5 +57,6 @@ public class Vending_Machine_openStore : MonoBehaviour
         ShopMenuUI.SetActive(true);
         Time.timeScale = 0f;
         Shopisopen = true;
+        PressEtointeract.SetActive(false);
     }
 }

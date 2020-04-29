@@ -1403,9 +1403,6 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -4.7222505, y: 19.43789, z: -0.6644211}
-      - {x: -4.549088, y: 18.996248, z: -0.6644211}
-      - {x: -4.717457, y: -2.1915615, z: -0.21201324}
       - {x: -4.3941255, y: -2.315872, z: -0.21201324}
       - {x: -0.30113888, y: -3.8894947, z: -0.21201324}
       - {x: -4.292563, y: 0.4981513, z: -565.5881}
@@ -1421,7 +1418,6 @@ MonoBehaviour:
       perAnchorNormalsAngle:
       - 0
       - 0
-      - 0
       globalNormalsAngle: 0
       flipNormals: 0
     vertexPathUpToDate: 1
@@ -1432,12 +1428,12 @@ MonoBehaviour:
     showPerSegmentBounds: 0
     displayAnchorPoints: 1
     displayControlPoints: 1
-    bezierHandleScale: 50
+    bezierHandleScale: 10
     globalDisplaySettingsFoldout: 0
     keepConstantHandleSize: 0
     showNormalsInVertexMode: 0
     showBezierPathInVertexMode: 0
-    showDisplayOptions: 0
+    showDisplayOptions: 1
     showPathOptions: 1
     showVertexPathDisplayOptions: 0
     showVertexPathOptions: 1
@@ -1469,7 +1465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793184834}
   - component: {fileID: 793184833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: launchpad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2497,10 +2493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 676066014}
   speed: 4
-  ShopMenuUI: {fileID: 2015877120}
   endOfPathInstruction: 2
-  camera_move: 0
-  time: 0
+  time: 24
   conversation: {fileID: 1514140928}
 --- !u!1 &1732538608
 GameObject:
@@ -2752,7 +2746,7 @@ GameObject:
   - component: {fileID: 1982712229}
   - component: {fileID: 1982712228}
   m_Layer: 0
-  m_Name: DarkWinds
+  m_Name: this world is sh#t
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2768,7 +2762,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3341c83fd98354c42b7e17f6126d4f85, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8426d4a8550eae841be6e2d1208439e2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3045,7 +3039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2144052162}
   - component: {fileID: 2144052161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rocket1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

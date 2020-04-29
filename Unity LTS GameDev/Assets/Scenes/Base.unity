@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 21924998}
   - component: {fileID: 21925000}
   - component: {fileID: 21924999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 89117843}
   - component: {fileID: 89117845}
   - component: {fileID: 89117844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1031,7 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 191500540}
   - component: {fileID: 191500541}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vending machine 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1088,8 +1088,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2090620693
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2d0ff10f111c597419d8499a2a12c613, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1113,7 +1113,7 @@ GameObject:
   - component: {fileID: 199540857}
   - component: {fileID: 199540856}
   - component: {fileID: 199540855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collision_wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1520,7 +1520,7 @@ GameObject:
   - component: {fileID: 266150103}
   - component: {fileID: 266150105}
   - component: {fileID: 266150104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 329295739}
   - component: {fileID: 329295741}
   - component: {fileID: 329295740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Table (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1852,7 +1852,7 @@ GameObject:
   - component: {fileID: 387782716}
   - component: {fileID: 387782718}
   - component: {fileID: 387782717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Table (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2669,7 +2669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633767865}
   - component: {fileID: 633767866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vending machine 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2726,8 +2726,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2090620693
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f6d03618a909806488cb9b2f54f1fda8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2787,7 +2787,7 @@ GameObject:
   - component: {fileID: 649385115}
   - component: {fileID: 649385114}
   - component: {fileID: 649385113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Vending Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2846,7 +2846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c16e10ed830d4f8892ba288351c80f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 0}
+  ShopMenuUI: {fileID: 671680165}
   Shopisopen: 0
   PressEtointeract: {fileID: 1577076113}
 --- !u!61 &649385115
@@ -3236,7 +3236,7 @@ GameObject:
   - component: {fileID: 747911636}
   - component: {fileID: 747911635}
   - component: {fileID: 747911634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Vending Machine (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3295,7 +3295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c16e10ed830d4f8892ba288351c80f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 0}
+  ShopMenuUI: {fileID: 671680165}
   Shopisopen: 0
   PressEtointeract: {fileID: 1577076113}
 --- !u!61 &747911636
@@ -3709,7 +3709,7 @@ GameObject:
   - component: {fileID: 928016651}
   - component: {fileID: 928016650}
   - component: {fileID: 928016649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collision_wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3816,7 +3816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958831224}
   - component: {fileID: 958831225}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: final base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4135,7 +4135,7 @@ GameObject:
   - component: {fileID: 1014642747}
   - component: {fileID: 1014642749}
   - component: {fileID: 1014642748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4568,7 +4568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1141559340}
   - component: {fileID: 1141559341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Envirement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4642,7 +4642,7 @@ GameObject:
   - component: {fileID: 1174012474}
   - component: {fileID: 1174012476}
   - component: {fileID: 1174012475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4823,7 +4823,7 @@ GameObject:
   - component: {fileID: 1201017095}
   - component: {fileID: 1201017097}
   - component: {fileID: 1201017096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collision_wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4931,7 +4931,7 @@ GameObject:
   - component: {fileID: 1293617385}
   - component: {fileID: 1293617387}
   - component: {fileID: 1293617386}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collision_wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5039,7 +5039,7 @@ GameObject:
   - component: {fileID: 1383999466}
   - component: {fileID: 1383999465}
   - component: {fileID: 1383999467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5787,7 +5787,7 @@ GameObject:
   - component: {fileID: 1582011720}
   - component: {fileID: 1582011722}
   - component: {fileID: 1582011721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Table (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6686,7 +6686,7 @@ GameObject:
   - component: {fileID: 1805873168}
   - component: {fileID: 1805873170}
   - component: {fileID: 1805873169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7089,7 +7089,7 @@ GameObject:
   - component: {fileID: 1928512987}
   - component: {fileID: 1928512989}
   - component: {fileID: 1928512988}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7205,7 +7205,7 @@ GameObject:
   - component: {fileID: 1936167701}
   - component: {fileID: 1936167703}
   - component: {fileID: 1936167702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7432,7 +7432,7 @@ GameObject:
   - component: {fileID: 2131974689}
   - component: {fileID: 2131974688}
   - component: {fileID: 2131974687}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collision_wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7648,7 +7648,7 @@ GameObject:
   - component: {fileID: 2144735751}
   - component: {fileID: 2144735753}
   - component: {fileID: 2144735752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chair (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
