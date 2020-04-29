@@ -1665,7 +1665,7 @@ GameObject:
   - component: {fileID: 2063569922}
   - component: {fileID: 2063569921}
   - component: {fileID: 2063569924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: loading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1778,7 +1778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119919450}
   - component: {fileID: 2119919449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: begin background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
