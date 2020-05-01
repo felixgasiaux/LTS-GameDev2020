@@ -40,7 +40,6 @@ public class Blue_Guy_Controller : MonoBehaviour
             {
                 Debug.Log("Player is talking to Pink Guy");
                 PinkGuy_Talk.SetActive(true);
-                Time.timeScale = 0f;
                 PressEtointeract.SetActive(false);
             }
             else
@@ -50,10 +49,9 @@ public class Blue_Guy_Controller : MonoBehaviour
         }
         else
         {
-
+            //movement
+            distanceTravelled += speed * Time.deltaTime;
+            transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
         }
-     //movement
-       distanceTravelled += speed * Time.deltaTime;
-       transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
     }
 }
