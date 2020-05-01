@@ -15,7 +15,8 @@ public class Blue_Guy_Controller : MonoBehaviour
     public float speed = 0.5f;
     float distanceTravelled;
     public TextMeshProUGUI text;
-  
+    public GetComponent<Animation>() anim;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,12 +31,22 @@ public class Blue_Guy_Controller : MonoBehaviour
         inboxcollider = false;
         PressEtointeract.SetActive(false);
     }
-
+    void Start()
+    {
+        foreach (AnimationState state in anim)
+        {
+            state.speed = 10F;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
         if (inboxcollider == true)
         {
+            foreach (AnimationState state in anim)
+            {
+                state.speed = 0F;
+            }
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("Player is talking to Pink Guy");
@@ -52,6 +63,10 @@ public class Blue_Guy_Controller : MonoBehaviour
             //movement
             distanceTravelled += speed * Time.deltaTime;
             transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
+            foreach (AnimationState state in anim)
+            {
+                state.speed = 10F;
+            }
         }
     }
 }
