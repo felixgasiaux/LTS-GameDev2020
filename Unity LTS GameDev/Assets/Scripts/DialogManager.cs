@@ -18,7 +18,7 @@ public class DialogManager : MonoBehaviour
         clicksound = GetComponent<AudioSource>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (textDisplay.text == sentences[index])
         {
