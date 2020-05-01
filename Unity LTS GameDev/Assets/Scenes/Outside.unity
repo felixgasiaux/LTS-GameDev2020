@@ -525,7 +525,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 87
+  field of view: 77
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1829,7 +1829,7 @@ GameObject:
   - component: {fileID: 1225183404}
   - component: {fileID: 1225183403}
   - component: {fileID: 1225183402}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2074,7 +2074,7 @@ Transform:
   m_GameObject: {fileID: 1225183401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.43, y: -0.09, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2398,7 +2398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767233261}
   - component: {fileID: 1767233260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
