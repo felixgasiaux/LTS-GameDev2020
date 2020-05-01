@@ -6497,6 +6497,7 @@ MonoBehaviour:
   pathCreator: {fileID: 789138622}
   speed: 0.5
   text: {fileID: 184003433}
+  anim: {fileID: 0}
 --- !u!70 &1771140378
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6622,10 +6623,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 184003433}
   sentences:
-  - You need to find ...
-  - A Radio!
-  - Quick!!
-  - NOW!
+  - Our radio is dead
+  - you have to fix it
+  - or earth won't be able to send us...
+  - the maaterial we need
   typingSpeed: 0.01
   continueButton: {fileID: 1048221416}
 --- !u!82 &1771140383
