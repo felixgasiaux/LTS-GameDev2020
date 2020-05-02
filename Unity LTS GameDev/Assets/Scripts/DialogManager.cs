@@ -9,7 +9,7 @@ public class DialogManager : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
-    public GameObject continueButton;
+    public GameObject BlueGuyTalk;
     private AudioSource clicksound;
 
     void Start()
@@ -22,8 +22,9 @@ public class DialogManager : MonoBehaviour
     {
         if (textDisplay.text == sentences[index])
         {
-            continueButton.SetActive(true);
+          
         }
+      
     }
 
     IEnumerator Type()
@@ -37,7 +38,6 @@ public class DialogManager : MonoBehaviour
     public void NextSentence()
     {
         clicksound.Play();
-        continueButton.SetActive(false);
         if (index < sentences.Length -1)
         {
             index++;
@@ -47,8 +47,14 @@ public class DialogManager : MonoBehaviour
         else
         {
             textDisplay.text = "";
-            continueButton.SetActive(false);
+            BlueGuyTalk.SetActive(false);
+
         }
+    }
+
+    private void EndDialogue()
+    {
+
     }
 
 }

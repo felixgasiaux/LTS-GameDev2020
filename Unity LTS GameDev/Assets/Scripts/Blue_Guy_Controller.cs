@@ -15,7 +15,7 @@ public class Blue_Guy_Controller : MonoBehaviour
     public float speed = 0.5f;
     float distanceTravelled;
     public TextMeshProUGUI text;
-  
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -49,9 +49,10 @@ public class Blue_Guy_Controller : MonoBehaviour
         }
         else
         {
-            //movement
-            distanceTravelled += speed * Time.deltaTime;
-            transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
+
         }
+     //movement
+       distanceTravelled += speed * Time.deltaTime;
+       transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
     }
 }

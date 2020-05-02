@@ -6627,7 +6627,7 @@ MonoBehaviour:
   - Quick!!
   - NOW!
   typingSpeed: 0.01
-  continueButton: {fileID: 1048221416}
+  BlueGuyTalk: {fileID: 1038579724}
 --- !u!82 &1771140383
 AudioSource:
   m_ObjectHideFlags: 0
