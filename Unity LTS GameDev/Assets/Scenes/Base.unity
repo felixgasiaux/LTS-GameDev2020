@@ -6497,7 +6497,6 @@ MonoBehaviour:
   pathCreator: {fileID: 789138622}
   speed: 0.5
   text: {fileID: 184003433}
-  anim: {fileID: 0}
 --- !u!70 &1771140378
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

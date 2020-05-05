@@ -40,7 +40,7 @@ public class Blue_Guy_Controller : MonoBehaviour
             {
                 Debug.Log("Player is talking to Pink Guy");
                 PinkGuy_Talk.SetActive(true);
-                Time.timeScale = 0f;
+                Time.timeScale = 1f;
                 PressEtointeract.SetActive(false);
 
             }
