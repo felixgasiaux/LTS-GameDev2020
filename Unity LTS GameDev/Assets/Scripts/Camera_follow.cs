@@ -16,10 +16,10 @@ public class Camera_follow : MonoBehaviour
     private void Start()
     {
         //variables to change depending of the background
-        xMin = -64.27f;
-        xMax = 111.87f; //52.5 offset
-        yMin = -72.74f; //5 offset
-        yMax = 29.55f;
+        xMin = -80.53f;
+        xMax = 128.1f; //52.5 offset
+        yMin = -75.7f; //5 offset
+        yMax = 32.5f;
         mainCam = GetComponent<Camera>();
         camOrthsize = mainCam.orthographicSize;
         cameraRatio = (xMax + camOrthsize) / 2.0f;
