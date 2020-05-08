@@ -1,12 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
-
-namespace Pathfinding
+public class PlayerMovement : MonoBehaviour
 {
-    public class PlayerMovement : MonoBehaviour
-    {
         public float moveSpeed = 3f;
         public string collision;
         float position_x;
@@ -14,11 +10,10 @@ namespace Pathfinding
         public Rigidbody2D rb;
         public Animator animator;
         Vector2 movement;
-        public Transform target;
-        IAstarAI[] ais;
+
         public void Start()
         {
-            ais = FindObjectsOfType<MonoBehaviour>().OfType<IAstarAI>().ToArray();
+
         }
         // Update is called once per frame
         void Update()
@@ -30,15 +25,10 @@ namespace Pathfinding
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Speed", movement.sqrMagnitude);
-            for (int i = 0; i < ais.Length; i++)
-            {
-                if (ais[i] != null) ais[i].SearchPath();
-
-            }
         }
 
-        void FixedUpdate()
-        {
+    void FixedUpdate()
+    {
             position_x = GetComponent<Rigidbody2D>().position.x;
             position_y = GetComponent<Rigidbody2D>().position.y;
             // movement because reapeated more times
@@ -64,11 +54,10 @@ namespace Pathfinding
             }
             */
 
-        }
-        void OnCollisionEnter2D(Collision2D col)
-        {
+    }
+    void OnCollisionEnter2D(Collision2D col)
+    {
 
-            collision = col.gameObject.name;
-        }
+        collision = col.gameObject.name;
     }
 }

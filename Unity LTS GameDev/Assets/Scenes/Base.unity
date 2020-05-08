@@ -6625,7 +6625,9 @@ MonoBehaviour:
   - Our radio is dead
   - you have to fix it
   - or earth won't be able to send us...
-  - the maaterial we need
+  - the material we need
+  - Go see Emma...
+  - she will explain you what to do
   typingSpeed: 0.01
   BlueGuyTalk: {fileID: 1038579724}
 --- !u!82 &1771140383
