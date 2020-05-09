@@ -51,9 +51,8 @@ namespace Pathfinding
 			}
             else
 			{
-				animator.SetBool("explode", explode);
-				Debug.Log("explose");
-				m_ObjectCollider.isTrigger = true; }
+
+			}
 		}
 		private void OnTriggerEnter2D(Collider2D collision)
 		{
@@ -67,6 +66,9 @@ namespace Pathfinding
 			if (col.gameObject.name == "player" )
 			{
 				explode = true;
+				animator.SetBool("explode", explode);
+				Debug.Log("explose");
+				m_ObjectCollider.isTrigger = true;
 			}
 		}
 	}
