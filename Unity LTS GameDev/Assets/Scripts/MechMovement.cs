@@ -57,7 +57,7 @@ namespace Pathfinding
             Debug.Log(col.gameObject.name);
             if (col.gameObject.name == "Sprite" || col.gameObject.name == "Sprite (1)" || col.gameObject.name == "Sprite (2)" || col.gameObject.name == "Sprite (3)" || col.gameObject.name == "Sprite (4)" || col.gameObject.name == "Sprite (5)" || col.gameObject.name == "Sprite (6)"  || col.gameObject.name == "Sprite (7)" || col.gameObject.name == "Sprite (8)" || col.gameObject.name == "Sprite (9)" || col.gameObject.name == "Sprite (10)" || col.gameObject.name == "Sprite (11)" || col.gameObject.name == "Sprite (12)" || col.gameObject.name == "Sprite (13)" || col.gameObject.name == "Sprite (14)" || col.gameObject.name == "Sprite (15)")
             {
-                life -= 10;
+                life -= 20;
             }
         }
     }
