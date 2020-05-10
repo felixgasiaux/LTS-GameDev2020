@@ -270,9 +270,9 @@ MonoBehaviour:
   textDisplay: {fileID: 215111715}
   sentences:
   - To be able to fix the radio...
-  - you have to collect 5 metal pieces
-  - There is a deposit outside
-  - But be aware, the planet is habited
+  - you have to collect  metal pieces
+  - There are metal deposits outside
+  - But be carefull, the planet is habited
   - When you have enough metal...
   - Go to the radio group
   - Good Luck !
