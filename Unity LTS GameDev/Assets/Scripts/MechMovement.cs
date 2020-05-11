@@ -10,7 +10,6 @@ namespace Pathfinding
     public class MechMovement : MonoBehaviour
     {
         public int metal;
-        private bool ChangeValue = false;
         public int life = 100;
         public Slider lSlider;
         public float moveSpeed = 3f;
@@ -21,13 +20,57 @@ namespace Pathfinding
         public Transform target;
         IAstarAI[] ais;
         public Slider mSlider;
+        public GameObject metal1;
+        public GameObject metal2;
+        public GameObject metal3;
+        public GameObject metal4;
+        public GameObject metal5;
+        private static bool MetalCollect = false;
+        public GameObject PressEtocollect;
+        private string metal_name;
+
         public void Start()
         {
             ais = FindObjectsOfType<MonoBehaviour>().OfType<IAstarAI>().ToArray();
+            metal1.SetActive(true);
+            metal2.SetActive(true);
+            metal3.SetActive(true);
+            metal4.SetActive(true);
+            metal5.SetActive(true);
         }
         // Update is called once per frame
         void Update()
         {
+            mSlider.value = metal;
+            if (MetalCollect == true)
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    metal += 20;
+                    MetalCollect = false;
+                    if (metal_name == "metal1")
+                    {
+                        metal1.SetActive(false);
+                    }
+                    else if (metal_name == "metal2")
+                    {
+                        metal2.SetActive(false);
+                    }
+                    else if (metal_name == "metal3")
+                    {
+                        metal3.SetActive(false);
+                    }
+                    else if (metal_name == "metal4")
+                    {
+                        metal4.SetActive(false);
+                    }
+                    else if (metal_name == "metal5")
+                    {
+                        metal5.SetActive(false);
+                    }
+
+                }
+            }
             lSlider.value = life;
             if (life == 0)
             {
@@ -45,15 +88,6 @@ namespace Pathfinding
             {
                 if (ais[i] != null) ais[i].SearchPath();
 
-            }
-            mSlider.value = metal;
-            if (ChangeValue == true)
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    metal += 20;
-                    ChangeValue = false;
-                }
             }
         }
 
@@ -74,11 +108,22 @@ namespace Pathfinding
         }
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.name == "metal1" | collision.gameObject.name == "metal2" | collision.gameObject.name == "metal3" | collision.gameObject.name == "metal4" | collision.gameObject.name == "metal5")
+            metal_name = collision.gameObject.name;
+            Debug.Log("Metal Name :" + metal_name);
+            if (metal_name == "metal1" | metal_name == "metal2" | metal_name == "metal3" | metal_name == "metal4" | metal_name == "metal5")
             {
-                ChangeValue = true;
+
+                Debug.Log("Player entered collect area");
+                MetalCollect = true;
+                PressEtocollect.SetActive(true);
+
             }
-         Debug.Log("Player detected something");
+        }
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            Debug.Log("Player exited collect area");
+            MetalCollect = false;
+            PressEtocollect.SetActive(false);
         }
     }
 }
