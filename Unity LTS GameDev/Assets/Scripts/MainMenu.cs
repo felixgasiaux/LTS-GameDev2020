@@ -12,8 +12,9 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quit");
-        Application.Quit();
+        Debug.Log("Controls");
+        SceneManager.LoadScene("Controls");
+
     }
     public void Cinematic()
     {

@@ -10,7 +10,7 @@ public class back_button : MonoBehaviour
         if (Input.GetKeyDown("e"))
         {
             print("exit");
-            SceneManager.LoadScene("Base");
+            SceneManager.LoadScene("Menu");
         }
     }
 }

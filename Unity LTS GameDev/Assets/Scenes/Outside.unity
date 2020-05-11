@@ -289,7 +289,6 @@ GameObject:
   m_Component:
   - component: {fileID: 13981618}
   - component: {fileID: 13981620}
-  - component: {fileID: 13981619}
   m_Layer: 0
   m_Name: metal3
   m_TagString: Untagged
@@ -314,21 +313,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &13981619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13981617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 235210a09af58ad4eaab45678284c646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MetalCollected: 0
-  PressEtocollect: {fileID: 911405555}
-  Object: {fileID: 13981617}
 --- !u!58 &13981620
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1439,7 +1423,7 @@ GameObject:
   - component: {fileID: 221912851}
   - component: {fileID: 221912850}
   m_Layer: 0
-  m_Name: metal (2)
+  m_Name: metal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1970,7 +1954,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 100
+  m_Value: 31
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3089,7 +3073,7 @@ GameObject:
   - component: {fileID: 494137705}
   - component: {fileID: 494137704}
   m_Layer: 0
-  m_Name: metal
+  m_Name: metal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4182,7 +4166,7 @@ GameObject:
   - component: {fileID: 656366197}
   - component: {fileID: 656366196}
   m_Layer: 0
-  m_Name: metal
+  m_Name: metal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4641,7 +4625,7 @@ GameObject:
   - component: {fileID: 681354795}
   - component: {fileID: 681354794}
   m_Layer: 0
-  m_Name: metal (2)
+  m_Name: metal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5029,8 +5013,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f42a42835ed2fa94fa2d8ef2bfe50cbe, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5551,7 +5535,7 @@ GameObject:
   - component: {fileID: 782368645}
   - component: {fileID: 782368644}
   m_Layer: 0
-  m_Name: metal (3)
+  m_Name: metal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5869,7 +5853,7 @@ GameObject:
   - component: {fileID: 842936044}
   - component: {fileID: 842936043}
   m_Layer: 0
-  m_Name: metal
+  m_Name: metal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6348,7 +6332,7 @@ GameObject:
   - component: {fileID: 890365462}
   - component: {fileID: 890365461}
   m_Layer: 0
-  m_Name: metal (4)
+  m_Name: metal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6490,7 +6474,6 @@ GameObject:
   m_Component:
   - component: {fileID: 944399955}
   - component: {fileID: 944399954}
-  - component: {fileID: 944399956}
   m_Layer: 0
   m_Name: metal5
   m_TagString: Untagged
@@ -6521,7 +6504,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944399953}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 42.90419, y: 14.182289, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6531,21 +6514,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &944399956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944399953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 235210a09af58ad4eaab45678284c646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MetalCollected: 0
-  PressEtocollect: {fileID: 911405555}
-  Object: {fileID: 944399953}
 --- !u!1 &948895435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,7 +7757,7 @@ GameObject:
   - component: {fileID: 1088245843}
   - component: {fileID: 1088245842}
   m_Layer: 0
-  m_Name: metal (3)
+  m_Name: metal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8132,7 +8100,7 @@ GameObject:
   - component: {fileID: 1128271169}
   - component: {fileID: 1128271168}
   m_Layer: 0
-  m_Name: metal (3)
+  m_Name: metal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8567,7 +8535,7 @@ GameObject:
   - component: {fileID: 1165643915}
   - component: {fileID: 1165643914}
   m_Layer: 0
-  m_Name: metal (3)
+  m_Name: metal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8673,7 +8641,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1170467461}
   - component: {fileID: 1170467460}
-  - component: {fileID: 1170467462}
   m_Layer: 0
   m_Name: metal4
   m_TagString: Untagged
@@ -8705,7 +8672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170467459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.114187, y: -62.16771, z: 0}
+  m_LocalPosition: {x: 12.114188, y: -62.16771, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1604249977}
@@ -8716,21 +8683,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1170467462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170467459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 235210a09af58ad4eaab45678284c646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MetalCollected: 0
-  PressEtocollect: {fileID: 911405555}
-  Object: {fileID: 1170467459}
 --- !u!1 &1175584815
 GameObject:
   m_ObjectHideFlags: 0
@@ -9304,7 +9256,7 @@ GameObject:
   - component: {fileID: 1202919644}
   - component: {fileID: 1202919643}
   m_Layer: 0
-  m_Name: metal (1)
+  m_Name: metal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9815,6 +9767,12 @@ MonoBehaviour:
   animator: {fileID: 1225183404}
   target: {fileID: 1225183408}
   mSlider: {fileID: 1343864540}
+  metal1: {fileID: 1535455729}
+  metal2: {fileID: 1379018288}
+  metal3: {fileID: 13981617}
+  metal4: {fileID: 1170467459}
+  metal5: {fileID: 944399953}
+  PressEtocollect: {fileID: 911405555}
 --- !u!50 &1225183406
 Rigidbody2D:
   serializedVersion: 4
@@ -9967,13 +9925,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.06229973, g: 0.49780756, b: 0.9433962, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d7485bd4c4bccff46acbb18bcddc4a0a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10634,7 +10592,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 52
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11112,7 +11070,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1379018289}
   - component: {fileID: 1379018291}
-  - component: {fileID: 1379018290}
   m_Layer: 0
   m_Name: metal2
   m_TagString: Untagged
@@ -11128,7 +11085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379018288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 61.214188, y: -5.6677113, z: 0}
+  m_LocalPosition: {x: 61.21419, y: -5.6677113, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 494137703}
@@ -11139,21 +11096,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1379018290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379018288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 235210a09af58ad4eaab45678284c646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MetalCollected: 0
-  PressEtocollect: {fileID: 911405555}
-  Object: {fileID: 1379018288}
 --- !u!58 &1379018291
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11182,7 +11124,7 @@ GameObject:
   - component: {fileID: 1386399965}
   - component: {fileID: 1386399964}
   m_Layer: 0
-  m_Name: metal (4)
+  m_Name: metal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11779,7 +11721,7 @@ GameObject:
   - component: {fileID: 1487985686}
   - component: {fileID: 1487985685}
   m_Layer: 0
-  m_Name: metal (5)
+  m_Name: metal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11887,7 +11829,7 @@ GameObject:
   - component: {fileID: 1500164754}
   - component: {fileID: 1500164753}
   m_Layer: 0
-  m_Name: metal (3)
+  m_Name: metal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12063,7 +12005,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1535455730}
   - component: {fileID: 1535455731}
-  - component: {fileID: 1535455732}
   m_Layer: 0
   m_Name: metal1
   m_TagString: Untagged
@@ -12105,21 +12046,6 @@ CircleCollider2D:
   m_Offset: {x: -0.8438463, y: 0}
   serializedVersion: 2
   m_Radius: 3.3320913
---- !u!114 &1535455732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535455729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 235210a09af58ad4eaab45678284c646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MetalCollected: 0
-  PressEtocollect: {fileID: 911405555}
-  Object: {fileID: 1535455729}
 --- !u!1 &1558874677
 GameObject:
   m_ObjectHideFlags: 0
@@ -12446,7 +12372,7 @@ GameObject:
   - component: {fileID: 1604249979}
   - component: {fileID: 1604249978}
   m_Layer: 0
-  m_Name: metal
+  m_Name: metal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12554,7 +12480,7 @@ GameObject:
   - component: {fileID: 1605428524}
   - component: {fileID: 1605428523}
   m_Layer: 0
-  m_Name: metal (1)
+  m_Name: metal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13307,13 +13233,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9150943, g: 0.103595555, b: 0.103595555, a: 1}
+  m_Color: {r: 0.8207547, g: 0.10840158, b: 0.10840158, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 35d606100d9fabe4da6410bbd71bfc92, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13385,8 +13311,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 94c53dc58eb95fc4794cfd45dd8f7aa3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -14165,7 +14091,7 @@ GameObject:
   - component: {fileID: 1838836115}
   - component: {fileID: 1838836114}
   m_Layer: 0
-  m_Name: metal (1)
+  m_Name: metal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14179,7 +14105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838836112}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.42, y: -0.39, z: 0}
+  m_LocalPosition: {x: -1.4200001, y: -0.3899994, z: 0}
   m_LocalScale: {x: 2.570953, y: 2.5823212, z: 1}
   m_Children: []
   m_Father: {fileID: 13981618}
@@ -14309,7 +14235,7 @@ GameObject:
   - component: {fileID: 1871607526}
   - component: {fileID: 1871607527}
   m_Layer: 0
-  m_Name: metal
+  m_Name: metal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14322,13 +14248,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871607524}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6974144, y: 0.26420975, z: 0}
+  m_LocalRotation: {x: -0.006543148, y: -0, z: -0, w: 0.9999786}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 2.570953, y: 2.5823212, z: 1}
   m_Children: []
   m_Father: {fileID: 1535455730}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.75000006, y: 0, z: 0}
 --- !u!212 &1871607526
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14616,7 +14542,7 @@ GameObject:
   - component: {fileID: 1895969930}
   - component: {fileID: 1895969929}
   m_Layer: 0
-  m_Name: metal (1)
+  m_Name: metal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15256,7 +15182,7 @@ GameObject:
   - component: {fileID: 2097814693}
   - component: {fileID: 2097814692}
   m_Layer: 0
-  m_Name: metal (1)
+  m_Name: metal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
