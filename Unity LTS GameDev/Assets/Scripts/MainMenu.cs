@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Base");
     }
 
-    public void QuitGame()
+    public void ControlsGame()
     {
         Debug.Log("Controls");
         SceneManager.LoadScene("Controls");
@@ -19,5 +19,10 @@ public class MainMenu : MonoBehaviour
     public void Cinematic()
     {
         SceneManager.LoadScene("Cinematic");
+    }
+    public void QuitGame()
+    {
+        Debug.Log("Quit Game");
+        Application.Quit();
     }
 }

@@ -74,7 +74,7 @@ namespace Pathfinding
             lSlider.value = life;
             if (life == 0)
             {
-                SceneManager.LoadScene("Menu");
+                SceneManager.LoadScene("You died");
                 Debug.Log("Player died");
             }
             // input because reapeated less times
