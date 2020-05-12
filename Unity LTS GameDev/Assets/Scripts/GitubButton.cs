@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class GitubButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void Icon()
     {
-        
+        Application.OpenURL("https://www.flaticon.com/authors/freepik");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OpenGithub()
     {
