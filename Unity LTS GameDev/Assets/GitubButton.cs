@@ -15,4 +15,10 @@ public class GitubButton : MonoBehaviour
     {
         
     }
+
+    public void OpenGithub()
+    {
+        Application.OpenURL("https://github.com/felixgasiaux/LTS-GameDev2020/");
+    }
+
 }
