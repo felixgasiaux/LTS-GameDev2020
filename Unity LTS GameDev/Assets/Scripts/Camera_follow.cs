@@ -15,6 +15,7 @@ public class Camera_follow : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = true;
         //variables to change depending of the background
         xMin = -80.53f;
         xMax = 128.1f; //52.5 offset

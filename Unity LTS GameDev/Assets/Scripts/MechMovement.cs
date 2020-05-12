@@ -109,7 +109,6 @@ namespace Pathfinding
         private void OnTriggerEnter2D(Collider2D collision)
         {
             metal_name = collision.gameObject.name;
-            Debug.Log("Metal Name :" + metal_name);
             if (metal_name == "metal1" | metal_name == "metal2" | metal_name == "metal3" | metal_name == "metal4" | metal_name == "metal5")
             {
 

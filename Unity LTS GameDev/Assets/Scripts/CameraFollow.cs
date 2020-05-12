@@ -15,6 +15,7 @@ public class CameraFollow : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = true;
         //variables to change depending of the background
         xMin = -10f;
         xMax = 12f;
