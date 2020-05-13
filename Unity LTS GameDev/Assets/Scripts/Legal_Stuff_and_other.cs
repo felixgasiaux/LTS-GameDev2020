@@ -5,6 +5,10 @@ using UnityEngine;
 public class Legal_Stuff_and_other : MonoBehaviour
 {
 
+    public void License()
+    {
+        
+    }
 
-    
+
 }
