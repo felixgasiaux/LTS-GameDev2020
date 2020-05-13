@@ -20,6 +20,17 @@ public class shooter : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             MouseDown = true;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
+            if (hit.collider != null)
+            {
+                Debug.Log("touched something" + hit.collider);
+            }
+            else
+            {
+                Debug.Log("touched nothing");
+            }
         }
         else if (Input.GetMouseButtonUp(0))
         {

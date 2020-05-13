@@ -57,13 +57,6 @@ namespace Pathfinding
 		private void OnTriggerEnter2D(Collider2D collision)
 		{
 			Debug.Log("trigger : "+collision.gameObject.name);
-			if (collision.gameObject.name == "cursor")
-			{
-				explode = true;
-				animator.SetBool("explode", explode);
-				Debug.Log("explose");
-				m_ObjectCollider.isTrigger = true;
-			}
 			ai = GetComponent<IAstarAI>();
 			if (ai != null) ai.onSearchPath += Update;
 		}
