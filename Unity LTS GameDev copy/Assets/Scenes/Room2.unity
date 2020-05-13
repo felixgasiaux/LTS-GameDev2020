@@ -274,7 +274,7 @@ MonoBehaviour:
   - There are metal deposits outside
   - But be carefull, the planet is habited
   - When you have enough metal...
-  - Go to the radio group
+  - Go to the 3D printer
   - Good Luck !
   typingSpeed: 0.01
   BlueGuyTalk: {fileID: 1651706171}
@@ -295,7 +295,7 @@ MonoBehaviour:
   PressEtointeract: {fileID: 1437066338}
   pathCreator: {fileID: 1068527207}
   speed: 0.5
-  text: {fileID: 215111715}
+  text: {fileID: 0}
 --- !u!70 &29441003
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
