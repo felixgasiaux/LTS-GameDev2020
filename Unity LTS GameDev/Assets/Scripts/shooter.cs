@@ -15,22 +15,12 @@ public class shooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Cursor.visible = false;
         Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (Input.GetMouseButtonDown(0))
         {
             MouseDown = true;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
-            if (hit.collider != null)
-            {
-                Debug.Log("touched something" + hit.collider);
-            }
-            else
-            {
-                Debug.Log("touched nothing");
-            }
         }
         else if (Input.GetMouseButtonUp(0))
         {

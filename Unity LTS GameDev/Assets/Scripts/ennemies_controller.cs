@@ -45,13 +45,25 @@ namespace Pathfinding
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update()
 		{
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
 			if (explode == false)
 			{
 				if (target != null && ai != null) ai.destination = target.position;
 			}
             else
 			{
-
+				if (target != null && ai != null) ai.destination = ai.position;
+			}
+			if (Input.GetMouseButtonDown(0))
+			{
+				if (hit.collider == m_ObjectCollider)
+				{
+					explode = true;
+					animator.SetBool("explode", explode);
+					Debug.Log("explose");
+					m_ObjectCollider.isTrigger = true;
+				}
 			}
 		}
 		private void OnTriggerEnter2D(Collider2D collision)

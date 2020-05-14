@@ -273,9 +273,11 @@ MonoBehaviour:
   - you have to collect  metal pieces
   - There are metal deposits outside
   - But be carefull, the planet is habited
+  - 'And the magnetic fences aren''t working yet '
   - When you have enough metal...
-  - Go to the 3D printer
-  - Good Luck !
+  - Go to the radio group to repair it
+  - You'r the only one able to do that
+  - We count on you !
   typingSpeed: 0.01
   BlueGuyTalk: {fileID: 1651706171}
 --- !u!114 &29441002
@@ -3540,15 +3542,9 @@ MonoBehaviour:
       points:
       - {x: 1.9492214, y: 1.8737177, z: 0}
       - {x: 1.9732049, y: 0.53106225, z: 0}
-      - {x: 2.1844087, y: -1.8841529, z: 0}
-      - {x: 2.099052, y: -3.4645562, z: 0}
-      - {x: 0.98736477, y: -3.505825, z: 0}
-      - {x: 2.086192, y: -3.4364066, z: 0}
-      - {x: 0.18812418, y: -3.5101933, z: 0}
-      - {x: 0.17080021, y: -3.9436946, z: 0}
-      - {x: 0.19897032, y: -3.9289865, z: 0}
-      - {x: 0.2296114, y: -4.8170624, z: 0}
-      - {x: 0.4027233, y: -4.9480357, z: 0}
+      - {x: 2.131342, y: -3.215355, z: 0}
+      - {x: 2.0459852, y: -4.7957582, z: 0}
+      - {x: 1.8849001, y: -4.8017383, z: 0}
       - {x: 3.2926214, y: -4.8280816, z: 0}
       - {x: 3.4101439, y: -4.8365793, z: 0}
       - {x: 3.4075098, y: -3.7457328, z: 0}
@@ -3565,8 +3561,6 @@ MonoBehaviour:
         m_Center: {x: 1.6404408, y: 0.34116647, z: 0}
         m_Extent: {x: 0.35955918, y: 0.43513015, z: 0}
       perAnchorNormalsAngle:
-      - 0
-      - 0
       - 0
       - 0
       - 0

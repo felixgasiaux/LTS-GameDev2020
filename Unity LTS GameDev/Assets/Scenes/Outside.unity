@@ -822,7 +822,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 125186250}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 125186244}
 --- !u!114 &125186248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2444,7 +2444,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 382682850}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 382682844}
 --- !u!95 &382682850
 Animator:
   serializedVersion: 3
@@ -2955,7 +2955,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 444650858}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 444650852}
 --- !u!114 &444650856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3319,7 +3319,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 513036561}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 513036555}
 --- !u!114 &513036559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3575,7 +3575,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 513695509}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 513695503}
 --- !u!114 &513695507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6119,7 +6119,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 859886027}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 859886021}
 --- !u!114 &859886025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7137,7 +7137,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 979163521}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 979163515}
 --- !u!95 &979163521
 Animator:
   serializedVersion: 3
@@ -7573,7 +7573,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1027781178}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1027781172}
 --- !u!114 &1027781176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8657,7 +8657,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1143595046}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1143595040}
 --- !u!95 &1143595046
 Animator:
   serializedVersion: 3
@@ -9169,7 +9169,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1182207579}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1182207585}
 --- !u!114 &1182207581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9752,7 +9752,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1215027735}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1215027729}
 --- !u!95 &1215027735
 Animator:
   serializedVersion: 3
@@ -10607,7 +10607,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1318037311}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1318037305}
 --- !u!114 &1318037309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11737,7 +11737,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1470282837}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1470282831}
 --- !u!114 &1470282835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14073,7 +14073,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 1798793732}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 1798793726}
 --- !u!114 &1798793730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15718,7 +15718,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 2112285714}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 2112285708}
 --- !u!95 &2112285714
 Animator:
   serializedVersion: 3
@@ -16047,7 +16047,7 @@ MonoBehaviour:
   target: {fileID: 1225183408}
   animator: {fileID: 2127727318}
   explode: 0
-  m_ObjectCollider: {fileID: 0}
+  m_ObjectCollider: {fileID: 2127727312}
 --- !u!95 &2127727318
 Animator:
   serializedVersion: 3
