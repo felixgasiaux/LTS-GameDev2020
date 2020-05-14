@@ -9,6 +9,7 @@ public class radio : MonoBehaviour
     public GameObject radio_group;
     private bool radioopen;
     public GameObject aim;
+    public GameObject Mission_Text;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,7 @@ public class radio : MonoBehaviour
                     aim.SetActive(false);
                     Cursor.visible = true;
                     radioopen = true;
+                    Mission_Text.SetActive(false);
                 }
                 else
                 {
@@ -43,6 +45,7 @@ public class radio : MonoBehaviour
                     aim.SetActive(true);
                     Cursor.visible = false;
                     radioopen = false;
+                    Mission_Text.SetActive(true);
                 }
             }
         }
@@ -60,6 +63,8 @@ public class radio : MonoBehaviour
     public void repair()
     {
         Debug.Log("repair");
+
+
     }
 }
 

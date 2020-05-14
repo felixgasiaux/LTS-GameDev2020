@@ -11,7 +11,6 @@ public class Red_Girl_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-
         distanceTravelled += speed * Time.deltaTime;
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
     }
