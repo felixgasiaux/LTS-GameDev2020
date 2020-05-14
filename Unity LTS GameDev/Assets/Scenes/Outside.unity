@@ -936,7 +936,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &161699668
 Tilemap:
   m_ObjectHideFlags: 0
@@ -2412,7 +2412,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &382682846
 Tilemap:
   m_ObjectHideFlags: 0
@@ -3001,7 +3001,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &513036557
 Tilemap:
   m_ObjectHideFlags: 0
@@ -3257,7 +3257,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &513695505
 Tilemap:
   m_ObjectHideFlags: 0
@@ -3654,12 +3654,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &555401578 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1659571071019125449, guid: 15c03e1a864e34e778f2af25923ac135,
-    type: 3}
-  m_PrefabInstance: {fileID: 546306957466795300}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &561815636
 GameObject:
   m_ObjectHideFlags: 0
@@ -5233,7 +5227,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &779308407
 Tilemap:
   m_ObjectHideFlags: 0
@@ -6040,7 +6034,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &885873979
 Tilemap:
   m_ObjectHideFlags: 0
@@ -6868,7 +6862,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &979163517
 Tilemap:
   m_ObjectHideFlags: 0
@@ -7610,7 +7604,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1027781174
 Tilemap:
   m_ObjectHideFlags: 0
@@ -8716,7 +8710,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1143595042
 Tilemap:
   m_ObjectHideFlags: 0
@@ -9401,7 +9395,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 2
 --- !u!1839735485 &1182207584
 Tilemap:
   m_ObjectHideFlags: 0
@@ -10013,7 +10007,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1215027731
 Tilemap:
   m_ObjectHideFlags: 0
@@ -10465,7 +10459,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1240608634
 Tilemap:
   m_ObjectHideFlags: 0
@@ -11093,7 +11087,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1318037307
 Tilemap:
   m_ObjectHideFlags: 0
@@ -12075,7 +12069,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1416599922
 Tilemap:
   m_ObjectHideFlags: 0
@@ -12398,7 +12392,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1470282833
 Tilemap:
   m_ObjectHideFlags: 0
@@ -13005,7 +12999,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1548003876
 Tilemap:
   m_ObjectHideFlags: 0
@@ -14471,7 +14465,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1683254788
 Tilemap:
   m_ObjectHideFlags: 0
@@ -14966,7 +14960,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1712214457
 Tilemap:
   m_ObjectHideFlags: 0
@@ -15720,6 +15714,7 @@ MonoBehaviour:
   PressEtorepair: {fileID: 1786315059}
   radio_group: {fileID: 1846745162}
   aim: {fileID: 974065586}
+  Mission_Text: {fileID: 0}
   NoWIFI: {fileID: 1078126558}
   WIFI: {fileID: 1188128534}
   text1: {fileID: 1017069249}
@@ -15792,7 +15787,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1798793728
 Tilemap:
   m_ObjectHideFlags: 0
@@ -16754,6 +16749,7 @@ RectTransform:
   - {fileID: 911405556}
   - {fileID: 1786315060}
   - {fileID: 1846745163}
+  - {fileID: 546306957466795301}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17198,7 +17194,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &1936643569
 Tilemap:
   m_ObjectHideFlags: 0
@@ -17762,7 +17758,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &2012559277
 Tilemap:
   m_ObjectHideFlags: 0
@@ -18207,7 +18203,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &2112285710
 Tilemap:
   m_ObjectHideFlags: 0
@@ -18536,7 +18532,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.61
+  m_Radius: 2
 --- !u!1839735485 &2127727314
 Tilemap:
   m_ObjectHideFlags: 0
