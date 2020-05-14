@@ -10,6 +10,8 @@ public class Vending_Machine_openStore : MonoBehaviour
     public GameObject ShopMenuUI;
     public bool Shopisopen;
     public GameObject PressEtointeract;
+    public GameObject Mission_Text;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -50,6 +52,7 @@ public class Vending_Machine_openStore : MonoBehaviour
         ShopMenuUI.SetActive(false);
         Time.timeScale = 1f;
         Shopisopen = false;
+        Mission_Text.SetActive(true);
     }
 
     void Pause()
@@ -58,5 +61,7 @@ public class Vending_Machine_openStore : MonoBehaviour
         Time.timeScale = 0f;
         Shopisopen = true;
         PressEtointeract.SetActive(false);
+        Mission_Text.SetActive(false);
+
     }
 }

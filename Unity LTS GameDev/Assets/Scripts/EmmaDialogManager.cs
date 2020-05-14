@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogManager : MonoBehaviour
+public class EmmaDialogManager : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -49,7 +49,7 @@ public class DialogManager : MonoBehaviour
         {
             textDisplay.text = "";
             BlueGuyTalk.SetActive(false);
-            Text_Display_Mission.text = "Go see Emma. Hint: She might be in the other room?";
+            Text_Display_Mission.text = "Go outside and find the metal pieces and bring them to the printer to print repair peaces for the radio";
 
         }
     }
