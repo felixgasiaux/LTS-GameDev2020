@@ -57,5 +57,9 @@ public class radio : MonoBehaviour
         PressEtorepair.SetActive(false);
         radiocanbeopen = false;
     }
+    public void repair()
+    {
+        Debug.Log("repair");
+    }
 }
 
