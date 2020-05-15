@@ -113,11 +113,11 @@ public class wship_controller : MonoBehaviour
         }
         else if (time < 67f)
         {
-            conversation.text = "5TH COLONY : Houston their seems to be a problem with the comms";
+            conversation.text = "5TH COLONY : Houston their seems to be a problem with communications";
         }
         else if (time < 80f)
         {
-            conversation.text = "5TH COLONY : Landing on-going, hope we get comms back at tranquillity base";
+            conversation.text = "5TH COLONY : Landing on-going, hope we get communications back at tranquillity base";
         }
         else if (time < 99f)
         {

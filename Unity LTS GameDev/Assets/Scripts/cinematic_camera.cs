@@ -17,7 +17,7 @@ public class cinematic_camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        conversation.text = "Press E to get back to menu";
     }
 
     // Update is called once per frame

@@ -273,7 +273,6 @@ MonoBehaviour:
   - you have to collect  metal pieces
   - There are metal deposits outside
   - But be carefull, the planet is habited
-  - 'And the magnetic fences aren''t working yet '
   - When you have enough metal...
   - Go to the radio group to repair it
   - You'r the only one able to do that
@@ -3839,7 +3838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106237307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.385, y: -7.89, z: 1}
+  m_LocalPosition: {x: 1.385, y: -7.6, z: 1}
   m_LocalScale: {x: 1.87, y: 0.130824, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
