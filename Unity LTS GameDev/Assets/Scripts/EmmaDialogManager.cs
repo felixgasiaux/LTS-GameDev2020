@@ -17,6 +17,7 @@ public class EmmaDialogManager : MonoBehaviour
     {
         StartCoroutine(Type());
         clicksound = GetComponent<AudioSource>();
+        Text_Display_Mission.text = "Find Emma";
     }
 
     private void FixedUpdate()
@@ -49,7 +50,7 @@ public class EmmaDialogManager : MonoBehaviour
         {
             textDisplay.text = "";
             BlueGuyTalk.SetActive(false);
-            Text_Display_Mission.text = "Go outside and find the metal pieces and bring them to the printer to print repair peaces for the radio";
+            Text_Display_Mission.text = "Go outside and find the metal pieces";
 
         }
     }
