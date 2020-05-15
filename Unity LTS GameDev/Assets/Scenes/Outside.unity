@@ -11619,7 +11619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -213.4001, y: 230.28001}
+  m_AnchoredPosition: {x: -213.4001, y: 244.3}
   m_SizeDelta: {x: 374.5, y: 167}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1336232317
@@ -11640,7 +11640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Explore your envirement
+  m_text: Explore your envirement and shoot Enemies
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11709,12 +11709,12 @@ MonoBehaviour:
   m_margin: {x: -0.00006194851, y: 0, z: 0, w: -0.9968971}
   m_textInfo:
     textComponent: {fileID: 1336232317}
-    characterCount: 23
+    characterCount: 41
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 5
+    wordCount: 6
     linkCount: 0
-    lineCount: 2
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
