@@ -113,7 +113,7 @@ public class radio : MonoBehaviour
     {
         if (finish == true)
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("You won");
         }
     }
 }
