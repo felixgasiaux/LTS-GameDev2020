@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class radio : MonoBehaviour
 {
@@ -11,15 +12,17 @@ public class radio : MonoBehaviour
     public GameObject radio_group;
     private bool radioopen;
     public GameObject aim;
-    public GameObject Mission_Text;
-
     public GameObject NoWIFI;
     public GameObject WIFI;
+    public GameObject button_repair;
+    public GameObject button_menu;
     public TextMeshProUGUI text1;
     public TextMeshProUGUI text2;
     public TextMeshProUGUI text3;
     public TextMeshProUGUI text4;
     public Slider mainSlider;
+    private bool finish;
+    public TextMeshProUGUI Text_Display_Mission;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,10 +32,13 @@ public class radio : MonoBehaviour
         aim.SetActive(true);
         WIFI.SetActive(false);
         NoWIFI.SetActive(true);
+        button_repair.SetActive(true);
+        button_menu.SetActive(false);
         text1.text = "No signal...";
         text2.text = "Error 42";
         text3.text = "";
         text4.text = "";
+        finish = false;
 
     }
 
@@ -50,9 +56,7 @@ public class radio : MonoBehaviour
                     PressEtorepair.SetActive(false);
                     aim.SetActive(false);
                     Cursor.visible = true;
-                    radioopen = true;
-                    Mission_Text.SetActive(false);
-                }
+                    radioopen = true;                }
                 else
                 {
                     text1.text = "No signal...";
@@ -64,7 +68,6 @@ public class radio : MonoBehaviour
                     aim.SetActive(true);
                     Cursor.visible = false;
                     radioopen = false;
-                    Mission_Text.SetActive(true);
                 }
             }
         }
@@ -92,6 +95,11 @@ public class radio : MonoBehaviour
             text4.text = "You did it !!!";
             WIFI.SetActive(true);
             NoWIFI.SetActive(false);
+            NoWIFI.SetActive(false);
+            button_repair.SetActive(false);
+            button_menu.SetActive(true);
+            finish = true;
+            Text_Display_Mission.text = "You finsihed the game !";
         }
         else
         {
@@ -99,6 +107,13 @@ public class radio : MonoBehaviour
             text2.text = "Cannot repair";
             text3.text = "Error 404";
             text4.text = mainSlider.value + "/100 metal";
+        }
+    }
+    public void menu()
+    {
+        if (finish == true)
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 }

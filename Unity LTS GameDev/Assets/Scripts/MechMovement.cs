@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 namespace Pathfinding
 {
@@ -25,6 +26,7 @@ namespace Pathfinding
         public GameObject metal3;
         public GameObject metal4;
         public GameObject metal5;
+        public TextMeshProUGUI mission_text;
         private static bool MetalCollect = false;
         public GameObject PressEtocollect;
         private string metal_name;
@@ -37,6 +39,7 @@ namespace Pathfinding
             metal3.SetActive(true);
             metal4.SetActive(true);
             metal5.SetActive(true);
+            mission_text.text = "Collect metal and don't get killed";
         }
         // Update is called once per frame
         void Update()
@@ -76,6 +79,10 @@ namespace Pathfinding
             {
                 SceneManager.LoadScene("You died");
                 Debug.Log("Player died");
+            }
+            else if (life == 100)
+            {
+                mission_text.text = "Find the radio and repair it";
             }
             // input because reapeated less times
             movement.x = Input.GetAxisRaw("Horizontal");
