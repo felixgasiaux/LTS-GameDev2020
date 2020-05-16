@@ -1,34 +1,29 @@
-GDD LTS GameDev 2020
+GDD LTS GameDev 2020 -The 5th colony
 
- -Story
+-Story
 In the year 2050 a colony is stranded on titan ( Saturn's largest moon, it has water on it's surface and the atmosphere is likely the 
-same as Earth beside the fact that the pression is 50% higher but for the game we could forget that :D, there are high chances that life is
-exists on Titan so it is the perfect place for our game ;) ) and they have lost contact with hearth, the story takes place 100 years 
-later in 2150, Rob 
-( we can change that name of course ) the   grandson of one of the first colons is an engineer and decides ( despite the fact that everyone 
-thinks that they are the last civilization part in the universe and they will never be rescued and that they will starve from hunger ) 
-to try everything to build something to contact earth, but mars is a dangerous planet and the people of the colony aren't really 
-cooperating, will Rob succeed ? Will he be able to save the colony from starving ? Will he faake it 'till he makes it ? Try it and you'll know !\
+same as Earth beside the fact that the pression is 50% higher but for the game we could forget that :D, there are high chances that life
+exists on Titan so it is the perfect place for our game ;) ) and they have lost contact with hearth on their entrance in the atmsphere of titan, Luc
+one of the colons is an communication engineer and he has to repair the radio, but titan is a dangerous planet, will Luc succeed ? Will he be able to save the colony from starving ? Will he faake it 'till he makes it ? Try it and you'll know !\
 -Audience
 12+ Adventure 
 -Art Style 
 2D Pixelart game 
 -Gameplay
-Maybe 4 quests, one where you have to shoot ennemies, the second where you have to collect items,  
-the third where you have to find an object and the fourth level where you have to build the whole communication system, between the
-quests you can buy items that you will need for the next quest by merchandising with someone. So maybe an openworld and the more you go 
-forward with the quests the more landscapes you have so the more rare items you can get to merchandise. So merchandise is an important 
-part of the game because without you cannot finish the quests. <-- that gameplay will last more than 15min but i assume the judges will 
-not test the whole game, but only one quest wouldn't be fun, moreover this type of gameplay is pretty easy to make beacause the
-interactions between the player and the bots aren't complicated
+You start in the underground base of the 5th colony, you then have to collect informations on what to do, once that's done you have to go outside to
+collect metal so you'r able to repair the radio, but, the planet is habited and you have to shoot them before they kill you, to shoot you have a aim that moves with the cursor,
+if te player doesn't know what to do he has an hint button
 -Timeline\
-the game should last 10min 
-*Caracter controll
+the game should last 10min to 15min (it depends if you'r lucky and skillful)
+-Caracter controll
 keyboard
-*npc
-*different levels 
-*make it look nice
--Ressources 
-Free Assets and learn how to animate
+-npc
+2 with wich you can converse and 3 others that don't do anythig (In other words all the caracters of the 5th colony)
+-different levels
+3 in total 
+-make it look nice
+Cinematic, audio, video
+-Bonus
+a food dispenser (it's a fun bonus)
 
 
