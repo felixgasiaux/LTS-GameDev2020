@@ -82,7 +82,7 @@ namespace Pathfinding
             }
             else if (life == 100)
             {
-                mission_text.text = "Collect metal and don't get killed";
+                mission_text.text = "Find the radio and repair it";
             }
             // input because reapeated less times
             movement.x = Input.GetAxisRaw("Horizontal");
