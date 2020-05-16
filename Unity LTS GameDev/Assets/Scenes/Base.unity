@@ -2485,6 +2485,8 @@ GameObject:
   - component: {fileID: 477364896}
   - component: {fileID: 477364902}
   - component: {fileID: 477364903}
+  - component: {fileID: 477364901}
+  - component: {fileID: 477364900}
   m_Layer: 0
   m_Name: The Hat Guy
   m_TagString: NPC
@@ -2617,13 +2619,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b37ed6c221aa124ab83dac6bede3300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textDisplay: {fileID: 2024374613}
+  textDisplay: {fileID: 0}
   sentences:
   - I miss my family
   - I hope the radio get's fixed soon
   - Because i can't wait to talk to them again
   typingSpeed: 0.01
-  BlueGuyTalk: {fileID: 856483842}
+  BlueGuyTalk: {fileID: 0}
 --- !u!61 &477364901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6329,7 +6331,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9433dbbacd42e9649aa9b93e3413d51d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 47c4d220700c30844a065df15e700a16, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
