@@ -23,6 +23,7 @@ public class radio : MonoBehaviour
     public Slider mainSlider;
     private bool finish;
     public TextMeshProUGUI Text_Display_Mission;
+    public AudioSource audioData;
     // Start is called before the first frame update
     void Start()
     {
@@ -84,6 +85,7 @@ public class radio : MonoBehaviour
     }
     public void repair()
     {
+        audioData.Play(0);
         Debug.Log("repair");
 
 
@@ -111,6 +113,7 @@ public class radio : MonoBehaviour
     }
     public void menu()
     {
+        audioData.Play(0);
         if (finish == true)
         {
             SceneManager.LoadScene("You won");
