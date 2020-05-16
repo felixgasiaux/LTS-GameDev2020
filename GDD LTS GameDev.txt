@@ -22,7 +22,7 @@ part of the game because without you cannot finish the quests. <-- that gameplay
 not test the whole game, but only one quest wouldn't be fun, moreover this type of gameplay is pretty easy to make beacause the
 interactions between the player and the bots aren't complicated
 -Timeline\
-the game should last 15min ( less would be risky )
+the game should last 10min 
 *Caracter controll
 keyboard
 *npc
