@@ -101,7 +101,7 @@ public class radio : MonoBehaviour
             button_repair.SetActive(false);
             button_menu.SetActive(true);
             finish = true;
-            Text_Display_Mission.text = "You finsihed the game !";
+            Text_Display_Mission.text = "You finished the game !";
         }
         else
         {
