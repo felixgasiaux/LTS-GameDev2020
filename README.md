@@ -7,7 +7,7 @@ You want to try it ?
 
 Go ahead:
 
-* [Windows](http://www.dropwizard.io/1.0.2/docs/)
-* [MacOS](https://maven.apache.org/) 
+* [Windows](https://github.com/felixgasiaux/LTS-GameDev2020/tree/master/Games/Windows)
+* [MacOS](https://github.com/felixgasiaux/LTS-GameDev2020/tree/master/Games/MacOS) 
 * [Linux](https://github.com/felixgasiaux/LTS-GameDev2020/tree/master/Games/Linux)
 
