@@ -95,6 +95,12 @@ namespace Pathfinding
                 if (ais[i] != null) ais[i].SearchPath();
 
             }
+
+
+            if (metal == 100)
+            {
+                mission_text.text = "Bring the metal to the radio station ourside";
+            } 
         }
 
         void FixedUpdate()
