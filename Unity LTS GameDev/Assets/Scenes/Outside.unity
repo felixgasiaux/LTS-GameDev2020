@@ -13520,7 +13520,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.097252
+  m_Radius: 4.8623013
 --- !u!1839735485 &1470282833
 Tilemap:
   m_ObjectHideFlags: 0
