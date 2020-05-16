@@ -99,7 +99,7 @@ namespace Pathfinding
 
             if (metal == 100)
             {
-                mission_text.text = "Bring the metal to the radio station ourside";
+                mission_text.text = "Bring the metal to the radio station outside";
             } 
         }
 

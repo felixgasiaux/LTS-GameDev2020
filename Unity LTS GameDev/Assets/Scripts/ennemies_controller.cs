@@ -22,6 +22,7 @@ namespace Pathfinding
 		public Animator animator;
 		public bool explode = false;
 		public Collider2D m_ObjectCollider;
+		public AudioSource audioData;
 		IAstarAI ai;
 		/*
 		void OnEnable () {
@@ -78,6 +79,7 @@ namespace Pathfinding
 			Debug.Log("collsion : " + col.gameObject.name);
 			if (col.gameObject.name == "player" )
 			{
+				audioData.Play(0);
 				explode = true;
 				animator.SetBool("explode", explode);
 				Debug.Log("explose");

@@ -6,6 +6,7 @@ public class shooter : MonoBehaviour
 {
     public Animator animator;
     private bool MouseDown = false;
+    public AudioSource audioData;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class shooter : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            audioData.Play(0);
             MouseDown = true;
         }
         else if (Input.GetMouseButtonUp(0))
